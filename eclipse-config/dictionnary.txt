@@ -1,0 +1,8 @@
+bitangent
+glm
+sizeof
+offsetof
+shaders
+specular
+struct
+filepath
