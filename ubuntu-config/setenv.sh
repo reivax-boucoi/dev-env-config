@@ -36,3 +36,10 @@ echo DEFAULT_USER=$(whoami) > ~/.zshrc
 echo unsetopt nomatch > ~/.zshrc
 echo source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh > ~/.zshrc
 
+echo Setting Konsole profile...
+mkdir -p ~/.local/share/konsole
+cp local/share/konsole/JucomProfile.profile ~/.local/share/konsole/
+cp local/share/konsole/Solarized.colorscheme ~/.local/share/konsole/
+
+read -rsp $'Press any key to continue...\n' -n1 key
+exit
