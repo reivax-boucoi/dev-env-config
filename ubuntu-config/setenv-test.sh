@@ -41,10 +41,21 @@ POWERLINE_BASH_SELECT=1
 . $POWERLINE_STATUS_LOCATION/powerline/bindings/bash/powerline.sh " >> ~/.bashrc
 
 echo "
+\" General setting
+syntax on
+set number
+set showmatch
 \" Powerline Font path
 set rtp+=$POWERLINE_STATUS_LOCATION/powerline/bindings/vim/
 set laststatus=2
-set t_Co=256 " >> ~/.vimrc
+set t_Co=256 
+\" Indentation settings
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set cindent
+set cinoptions=:0,l1,g0,(0,W4,N-s
+" >> ~/.vimrc
 
 sed -i "s/ZSH_THEME=\".*\"/ZSH_THEME=\"agnoster\"/" ~/.zshrc
 echo "
