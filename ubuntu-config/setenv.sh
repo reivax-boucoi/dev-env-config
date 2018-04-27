@@ -8,7 +8,7 @@ sudo apt upgrade -y
 sudo apt install -y \
 	build-essential gcc-7 g++-7 \
 	cmake git curl python-pip \
-	vim zsh zsh-syntax-highlighting
+	vim zsh source-highlight libsource-highlight-common
 
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 100 --slave /usr/bin/g++ g++ /usr/bin/g++-7
 
@@ -31,15 +31,28 @@ mv fontconfig/50-enable-terminess-powerline.conf ~/.config/fontconfig/conf.d/
 cd ..
 rm -rf fonts
 
+# Install Oh-My-Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Install Zsh plugins
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+# Setting bashrc
 echo "
 # Powerline Font path
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-. $POWERLINE_STATUS_LOCATION/powerline/bindings/bash/powerline.sh " >> ~/.bashrc
+. $POWERLINE_STATUS_LOCATION/powerline/bindings/bash/powerline.sh
+# Add syntax highlighting for less
+export LESSOPEN=\"| /usr/share/source-highlight/src-hilite-lesspipe.sh %s\"
+export LESS=' -R '
+" >> ~/.bashrc
 
+# Setting vimrc
 echo "
 \" General setting
 syntax on
@@ -57,11 +70,17 @@ set cindent
 set cinoptions=:0,l1,g0,(0,W4,N-s
 " >> ~/.vimrc
 
+# Setting zshrc
 sed -i "s/ZSH_THEME=\".*\"/ZSH_THEME=\"agnoster\"/" ~/.zshrc
 echo "
 # Custom settings
 DEFAULT_USER=$(whoami)
-unsetopt nomatch " >> ~/.zshrc
+unsetopt nomatch 
+autoload -U compinit && compinit
+# Add syntax highlighting for less
+export LESSOPEN=\"| /usr/share/source-highlight/src-hilite-lesspipe.sh %s\"
+export LESS=' -R '
+" >> ~/.zshrc
 
 mkdir -p ~/.local/share/konsole
 cp $LOCAL_DIR/local/share/konsole/JucomProfile.profile ~/.local/share/konsole/
