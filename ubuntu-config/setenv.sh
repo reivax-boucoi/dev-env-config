@@ -42,6 +42,7 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zs
 
 # Setting up git
 git config --global color.ui true
+git config --global core.editor "vim"
 git config --global user.email "julien.combattelli@hotmail.com"
 git config --global user.name "Julien Combattelli"
 
