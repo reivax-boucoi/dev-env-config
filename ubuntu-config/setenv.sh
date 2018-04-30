@@ -40,7 +40,13 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
 
-# Setting bashrc
+# Setting up source-highlight
+git clone https://github.com/jrunning/source-highlight-solarized.git
+sudo cp source-highlight-solarized/esc-solarized* /usr/share/source-highlight/
+echo "esc-solarized = esc-solarized.outlang" | sudo tee --append  /usr/share/source-highlight/outlang.map > /dev/null
+rm -rf source-highlight-solarized
+
+# Setting up bashrc
 echo "
 # Powerline Font path
 powerline-daemon -q
@@ -48,11 +54,11 @@ POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 . $POWERLINE_STATUS_LOCATION/powerline/bindings/bash/powerline.sh
 # Add syntax highlighting for less
-export LESSOPEN=\"| /usr/share/source-highlight/src-hilite-lesspipe.sh %s\"
+export LESSOPEN=\"| source-highlight -f esc-solarized.outlang --style-file=esc-solarized.style -i %s -o STDOUT\"
 export LESS=' -R '
 " >> ~/.bashrc
 
-# Setting vimrc
+# Setting up vimrc
 echo "
 \" General setting
 syntax on
@@ -70,7 +76,7 @@ set cindent
 set cinoptions=:0,l1,g0,(0,W4,N-s
 " >> ~/.vimrc
 
-# Setting zshrc
+# Setting up zshrc
 sed -i "s/ZSH_THEME=\".*\"/ZSH_THEME=\"agnoster\"/" ~/.zshrc
 echo "
 # Custom settings
@@ -78,7 +84,7 @@ DEFAULT_USER=$(whoami)
 unsetopt nomatch 
 autoload -U compinit && compinit
 # Add syntax highlighting for less
-export LESSOPEN=\"| /usr/share/source-highlight/src-hilite-lesspipe.sh %s\"
+export LESSOPEN=\"| source-highlight -f esc-solarized.outlang --style-file=esc-solarized.style -i %s -o STDOUT\"
 export LESS=' -R '
 " >> ~/.zshrc
 
