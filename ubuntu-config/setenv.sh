@@ -40,6 +40,11 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
 
+# Setting up git
+git config --global color.ui true
+git config --global user.email "julien.combattelli@hotmail.com"
+git config --global user.name "Julien Combattelli"
+
 # Setting up source-highlight
 git clone https://github.com/jrunning/source-highlight-solarized.git
 sudo cp source-highlight-solarized/esc-solarized* /usr/share/source-highlight/
