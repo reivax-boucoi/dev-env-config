@@ -61,3 +61,15 @@ unsetopt nomatch
 autoload -U compinit && compinit
 " >> ~/.zshrc
 
+# Install powerline fonts on Windows
+git clone https://github.com/powerline/fonts.git ~/powerline-fonts
+SCRIPT_DIR_WIN=$(cygpath -w $(realpath ~/powerline-fonts/install.ps1))
+powershell start-process powershell -argumentlist \(\' \
+    set-executionpolicy bypass -scope currentuser \; \
+    set-executionpolicy bypass \; \
+    $SCRIPT_DIR_WIN \; \
+    set-executionpolicy default -scope currentuser \; \
+    set-executionpolicy default \; \
+    start-sleep 2 \
+\'\) -verb runas
+
