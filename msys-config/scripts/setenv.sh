@@ -21,7 +21,7 @@ git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 
 # Install mintty colorscheme
-cp ../files/.mintty ~/.mintty
+cp ../files/.minttyrc ~/.minttyrc
 
 # Setting up git
 git config --global color.ui true
