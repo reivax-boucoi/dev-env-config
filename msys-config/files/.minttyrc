@@ -1,6 +1,6 @@
-Columns = 140
-Rows = 40
-Font = Consolas
+#Columns = 140
+#Rows = 40
+Font = Meslo LG S for Powerline
 FontHeight = 11
 Locale = fr_FR
 Charset = UTF-8
