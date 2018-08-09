@@ -26,7 +26,6 @@
 /configuration/org.eclipse.epp.mpc.ui/showOpenFavoritesNotification=false
 /configuration/org.eclipse.ui.editors/AbstractTextEditor.Color.Background=250,250,250
 /configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=/home/jucom/Development/eclipse-oxygen-workspace
 /configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
 /configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
 /configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=true
@@ -43,9 +42,6 @@
 /instance/com.genuitec.eclipse.theming.ui/workbench.theme=Light Gray
 /instance/com.github.eclipsecolortheme/colorTheme=Eclipse Standard
 /instance/com.github.eclipsecolortheme/colorThemeExplicit=true
-/instance/org.eclipse.cdt.core.prj-OpenGL-Test/indexer/preferenceScope=0
-/instance/org.eclipse.cdt.core.prj-gltest/indexer/preferenceScope=0
-/instance/org.eclipse.cdt.core.prj-test/indexer/preferenceScope=0
 /instance/org.eclipse.cdt.core/ToolChainManager/order/0.id=gcc-arm-/usr/bin/arm-none-eabi-gcc
 /instance/org.eclipse.cdt.core/ToolChainManager/order/0.type=org.eclipse.cdt.build.gcc
 /instance/org.eclipse.cdt.core/ToolChainManager/order/1.id=gcc-x86_64-/usr/bin/gcc
@@ -346,8 +342,6 @@
 /instance/org.eclipse.e4.ui.css.swt.theme/darkestApplied=true
 /instance/org.eclipse.e4.ui.css.swt.theme/enableddarkestdark=true
 /instance/org.eclipse.e4.ui.css.swt.theme/themeid=com.genuitec.eclipse.themes.dark
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=/home/jucom/Development/temp/OpenGL-Test/.git\:/home/jucom/Development/eclipse-oxygen-workspace/OpenGL-Test/.git\:/home/jucom/Development/eclipse-oxygen-workspace/gltest/.git\:
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories.relative=/home/jucom/Development/temp/OpenGL-Test/.git\:OpenGL-Test/.git\:gltest/.git\:
 /instance/org.eclipse.epp.logging.aeri.ide/resetSendMode=KEEP
 /instance/org.eclipse.epp.logging.aeri.ide/resetSendModeOn=0
 /instance/org.eclipse.epp.logging.aeri.ide/sendMode=NOTIFY
@@ -356,7 +350,6 @@
 /instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 /instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 /instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-/instance/org.eclipse.launchbar.core/configDescList=org.eclipse.launchbar.core.descriptorType.default\:hello,org.eclipse.launchbar.core.descriptorType.default\:gltest,org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:OpenGL-Test Debug
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:gltest/activeLaunchMode=run
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:hello/activeLaunchMode=run
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:hello/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
