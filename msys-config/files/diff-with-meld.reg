@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\DiffIt_Files]
+@="Diff with Meld"
+"Icon"="C:\\LegacyApp\\Meld\\meld.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\DiffIt_Files\command]
+@="\"C:\\LegacyApp\\singleinstance.exe\" \"%1\" \"C:\\LegacyApp\\Meld\\Meld.exe\" $files --si-timeout 400"
+
+[HKEY_CLASSES_ROOT\Folder\shell\DiffIt_Folders] 
+@="Diff with Meld" 
+"Icon"="C:\\LegacyApp\\Meld\\meld.ico"
+
+[HKEY_CLASSES_ROOT\Folder\shell\DiffIt_Folders\command]    
+@="\"C:\\LegacyApp\\singleinstance.exe\" \"%1\" \"C:\\LegacyApp\\Meld\\Meld.exe\" $files --si-timeout 400"
