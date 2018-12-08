@@ -37,7 +37,8 @@ cat .bashrc.append >> ~/.bashrc
 cat .vimrc.append >> ~/.vimrc
 
 # Setting up zshrc
-sed -i "s/ZSH_THEME=\".*\"/ZSH_THEME=\"agnoster\"/" ~/.zshrc
+sed -i "s/ZSH_THEME=\".*\"/ZSH_THEME=\"agnoster\"/" ~/.zshrc # Set agnoster theme
+sed -i "s/\(^plugins=([^)]*\)/\1\n  zsh-syntax-highlighting/" .zshrc # Add some basic plugins
 cat .zshrc.append >> ~/.zshrc
 
 # Setting up konsole
