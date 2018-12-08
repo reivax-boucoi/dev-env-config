@@ -2,15 +2,12 @@
 
 LOCAL_DIR=$(dirname $0)
 
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+# Update system and install some packages
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y \
-	build-essential gcc-7 g++-7 \
-	cmake git \
+	build-essential gcc g++ cmake git \
 	vim zsh tmux powerline powerline-fonts
-
-sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 100 --slave /usr/bin/g++ g++ /usr/bin/g++-7
 
 # Install Oh-My-Zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
