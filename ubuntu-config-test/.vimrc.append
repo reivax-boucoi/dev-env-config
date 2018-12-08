@@ -2,6 +2,8 @@
 syntax on
 set number
 set showmatch
+map <C-a> <esc>ggVG<CR>
+imap <C-a> <esc>ggVG<CR>
 
 " Indentation settings
 set expandtab
@@ -16,4 +18,13 @@ set laststatus=2 " Always display the statusline in all windows
 set showtabline=2 " Always display the tabline, even if there is only one tab
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 set t_Co=256
+
+" Clang-format settings
+map <C-K> :py3f /usr/share/vim/addons/syntax/clang-format.py<cr>
+imap <C-K> <c-o>:py3f /usr/share/vim/addons/syntax/clang-format.py<cr>
+function! Formatonsave()
+  let l:formatdiff = 1
+  py3f /usr/share/vim/addons/syntax/clang-format.py
+endfunction
+autocmd BufWritePre *.h,*.hpp,*.hh,*.c,*.cpp,*.cc call Formatonsave()
 
