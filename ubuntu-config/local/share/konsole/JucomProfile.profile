@@ -2,7 +2,7 @@
 AntiAliasFonts=true
 BoldIntense=true
 ColorScheme=Solarized
-Font=Liberation Mono for Powerline,12,-1,0,50,0,0,0,0,0
+Font=Hack,12,-1,0,50,0,0,0,0,0,Regular
 
 [General]
 Name=JucomProfile
