@@ -1,0 +1,5 @@
+# Custom settings
+DEFAULT_USER=$(whoami)
+unsetopt nomatch
+autoload -U compinit && compinit
+

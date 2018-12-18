@@ -1,24 +1,25 @@
-#Thu Mar 01 12:16:21 CET 2018
+#Thu Aug 09 16:04:41 CEST 2018
 \!/=
-/configuration/com.genuitec.eclipse.core/pointsHistory=201801\=0
-/configuration/com.genuitec.eclipse.inlinesearch/isInlineSearchEnabled=false
-/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/dayOfMonth=1
-/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/month=2
+/configuration/com.genuitec.eclipse.core/pointsHistory=201801\=0,201802\=0
+/configuration/com.genuitec.eclipse.inlinesearch/isInlineSearchEnabled=true
+/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/dayOfMonth=9
+/configuration/com.genuitec.eclipse.monitor//webclipse/ideused/month=7
 /configuration/com.genuitec.eclipse.monitor/ideused=1
-/configuration/com.genuitec.eclipse.startup/features=[{"launchCount"\:4,"id"\:"com.genuitec.eclipse.theming.feature","version"\:"1.11.0.201802122023"}]
+/configuration/com.genuitec.eclipse.startup/features=[{"launchCount"\:6,"id"\:"com.genuitec.eclipse.theming.feature","version"\:"1.11.0.201802122023"}]
 /configuration/com.genuitec.eclipse.startup/isNewStartupDialogShownFirstTime=false
-/configuration/com.genuitec.eclipse.startup/launchCount=12
+/configuration/com.genuitec.eclipse.startup/launchCount=14
 /configuration/com.genuitec.eclipse.startup/useNewStartupDialog=false
 /configuration/com.genuitec.eclipse.startup/welcomeFlowVersionShown=3
 /configuration/com.genuitec.eclipse.theming.ui/applyBackground=false
+/configuration/com.genuitec.eclipse.theming.ui/codemix.announce.notice.displayed=1533815638752
 /configuration/com.genuitec.eclipse.theming.ui/iconcolormode=primary
 /configuration/com.genuitec.eclipse.theming.ui/lastConfiguration=1519729571733
 /configuration/com.genuitec.eclipse.theming.ui/workbench.theme=Light Gray
-/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.check.timestamp=1519894981268
+/configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.check.timestamp=1533823235823
 /configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.etag="5a82c035-11f0"
 /configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.modified-date=Tue, 13 Feb 2018 10\:38\:45 GMT
 /configuration/com.genuitec.eclipse.webclipse.evergreen/manifest.download.url=http\://www.genuitec.com/updates/webclipse/ci/webclipse.json
-/configuration/com.genuitec.eclipse.webclipse.evergreen/release-notes-ids=2017ci11
+/configuration/com.genuitec.eclipse.webclipse.evergreen/release-notes-ids=2017ci11,2017ci13
 /configuration/com.genuitec.eclipse.webclipse.evergreen/webclipse.installed-release=1.11.0.201802122030
 /configuration/com.github.eclipsecolortheme/colorTheme=Eclipse Standard
 /configuration/com.github.eclipsecolortheme/colorThemeExplicit=false
@@ -26,26 +27,22 @@
 /configuration/org.eclipse.epp.mpc.ui/showOpenFavoritesNotification=false
 /configuration/org.eclipse.ui.editors/AbstractTextEditor.Color.Background=250,250,250
 /configuration/org.eclipse.ui.ide/MAX_RECENT_WORKSPACES=10
-/configuration/org.eclipse.ui.ide/RECENT_WORKSPACES=/home/jucom/Development/eclipse-oxygen-workspace
 /configuration/org.eclipse.ui.ide/RECENT_WORKSPACES_PROTOCOL=3
 /configuration/org.eclipse.ui.ide/SHOW_RECENT_WORKSPACES=false
 /configuration/org.eclipse.ui.ide/SHOW_WORKSPACE_SELECTION_DIALOG=true
-/instance/com.genuitec.eclipse.monitor/last.upload.time=1519833757241
+/instance/com.genuitec.eclipse.monitor/last.upload.time=1533815698283
 /instance/com.genuitec.eclipse.theming.ui/applyBackground=false
-/instance/com.genuitec.eclipse.theming.ui/approved.defs.file.last.changed.time=1512058756000
+/instance/com.genuitec.eclipse.theming.ui/approved.defs.file.last.changed.time=1523293951000
 /instance/com.genuitec.eclipse.theming.ui/configurationInstallLocation=/home/jucom/Programs/eclipse-oxygen/
 /instance/com.genuitec.eclipse.theming.ui/iconcolormode=primary
 /instance/com.genuitec.eclipse.theming.ui/includeThemingInOomph=false
-/instance/com.genuitec.eclipse.theming.ui/last.download.attempt.time=1519900288961
-/instance/com.genuitec.eclipse.theming.ui/lastConfiguration=1519894964866
+/instance/com.genuitec.eclipse.theming.ui/last.download.attempt.time=1533822850210
+/instance/com.genuitec.eclipse.theming.ui/lastConfiguration=1533822838294
 /instance/com.genuitec.eclipse.theming.ui/newinstall=false
 /instance/com.genuitec.eclipse.theming.ui/showWelcomeDialog=false
 /instance/com.genuitec.eclipse.theming.ui/workbench.theme=Light Gray
 /instance/com.github.eclipsecolortheme/colorTheme=Eclipse Standard
 /instance/com.github.eclipsecolortheme/colorThemeExplicit=true
-/instance/org.eclipse.cdt.core.prj-OpenGL-Test/indexer/preferenceScope=0
-/instance/org.eclipse.cdt.core.prj-gltest/indexer/preferenceScope=0
-/instance/org.eclipse.cdt.core.prj-test/indexer/preferenceScope=0
 /instance/org.eclipse.cdt.core/ToolChainManager/order/0.id=gcc-arm-/usr/bin/arm-none-eabi-gcc
 /instance/org.eclipse.cdt.core/ToolChainManager/order/0.type=org.eclipse.cdt.build.gcc
 /instance/org.eclipse.cdt.core/ToolChainManager/order/1.id=gcc-x86_64-/usr/bin/gcc
@@ -223,7 +220,7 @@
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.showSourceFilesInBinaries=true
 /instance/org.eclipse.cdt.core/org.eclipse.cdt.core.showSourceNotFoundEditor=all_time
 /instance/org.eclipse.cdt.debug.core/BreakpointActionManager.actionData=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<breakpointActionData/>\n
-/instance/org.eclipse.cdt.debug.core/org.eclipse.cdt.debug.core.cDebug.default_source_containers=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<sourceLookupDirector>\n<sourceContainers duplicates\="false">\n<container memento\="AbsolutePath" typeId\="org.eclipse.cdt.debug.core.containerType.absolutePath"/>\n<container memento\="programRelativePath" typeId\="org.eclipse.cdt.debug.core.containerType.programRelativePath"/>\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot; standalone\=&quot;no&quot;?&gt;&\#10;&lt;project referencedProjects\=&quot;true&quot;/&gt;&\#10;" typeId\="org.eclipse.cdt.debug.core.containerType.project"/>\n</sourceContainers>\n</sourceLookupDirector>\n
+/instance/org.eclipse.cdt.debug.core/org.eclipse.cdt.debug.core.cDebug.default_source_containers=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<sourceLookupDirector>\r\n<sourceContainers duplicates\="false">\r\n<container memento\="AbsolutePath" typeId\="org.eclipse.cdt.debug.core.containerType.absolutePath"/>\r\n<container memento\="programRelativePath" typeId\="org.eclipse.cdt.debug.core.containerType.programRelativePath"/>\r\n<container memento\="&lt;?xml version\=&quot;1.0&quot; encoding\=&quot;UTF-8&quot; standalone\=&quot;no&quot;?&gt;&\#13;&\#10;&lt;project referencedProjects\=&quot;true&quot;/&gt;&\#13;&\#10;" typeId\="org.eclipse.cdt.debug.core.containerType.project"/>\r\n</sourceContainers>\r\n</sourceLookupDirector>\r\n
 /instance/org.eclipse.cdt.dsf.ui/useAnnotationsPrefPage=true
 /instance/org.eclipse.cdt.managedbuilder.core/properties/eclipse-opengl-test.cdt.managedbuild.target.gnu.exe.1278384854/cdt.managedbuild.config.gnu.exe.debug.861958368=cdt.managedbuild.tool.gnu.assembler.exe.debug.1571659602\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.archiver.base.1365655875\=rebuildState\\\=false\\n\ncdt.managedbuild.config.gnu.exe.debug.861958368\=rcState\\\=0\\nrebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.c.compiler.exe.debug.634827819\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1552143848\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.c.linker.exe.debug.1594266701\=rebuildState\\\=false\\n\ncdt.managedbuild.toolchain.gnu.exe.debug.370210394\=rebuildState\\\=false\\n\ncdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1970420099\=rebuildState\\\=false\\n\n
 /instance/org.eclipse.cdt.managedbuilder.core/properties/eclipse-opengl-test.cdt.managedbuild.target.gnu.exe.1278384854/cdt.managedbuild.config.gnu.exe.release.423090516=cdt.managedbuild.toolchain.gnu.exe.release.105804921\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.archiver.base.1822580027\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.cpp.linker.exe.release.1732393555\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.c.compiler.exe.release.1092932779\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.assembler.exe.release.932120519\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.c.linker.exe.release.505119029\=rebuildState\\\=true\\n\ncdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1785570449\=rebuildState\\\=true\\n\n
@@ -323,14 +320,13 @@
 /instance/org.eclipse.cdt.ui/semanticHighlighting.staticMethod.bold=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.bold=true
 /instance/org.eclipse.cdt.ui/semanticHighlighting.typedef.color=128,0,128
-/instance/org.eclipse.cdt.ui/sourceHoverBackgroundColor=255,255,225
+/instance/org.eclipse.cdt.ui/sourceHoverBackgroundColor=227,227,227
 /instance/org.eclipse.cdt.ui/spelling_locale_initialized=true
 /instance/org.eclipse.cdt.ui/spelling_user_dictionary=/home/jucom/Documents/eclipse-config/dictionnary.txt
 /instance/org.eclipse.cdt.ui/spelling_user_dictionary_encoding=
 /instance/org.eclipse.cdt.ui/useAnnotationsPrefPage=true
 /instance/org.eclipse.cdt.ui/useQuickDiffPrefPage=true
-/instance/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
-/instance/org.eclipse.core.resources/org.eclipse.jdt.core.interfaceFormat=ZC5|GC5|FGNEG756357|CEB5|QC5|Q5|PQ6
+/instance/org.eclipse.core.resources/org.eclipse.jdt.core.interfaceFormat=ZC5|GC5|FGNEG756352|CEB5|QC5|Q5|PQ4
 /instance/org.eclipse.core.resources/version=1
 /instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.applicationLaunchType=org.eclipse.cdt.dsf.gdb.launch.localCLaunch,debug,;org.eclipse.cdt.cdi.launch.localCLaunch,run,;
 /instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.attachLaunchType=org.eclipse.cdt.dsf.gdb.launch.attachCLaunch,debug,;
@@ -338,7 +334,7 @@
 /instance/org.eclipse.debug.core//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.cdt.launch.remoteApplicationLaunchType=org.eclipse.rse.remotecdt.dsf.debug,debug,;
 /instance/org.eclipse.debug.core/prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions/>\n
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.MemoryView.orientation=0
-/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+/instance/org.eclipse.debug.ui/org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<launchPerspectives/>\r\n
 /instance/org.eclipse.debug.ui/org.eclipse.debug.ui.consoleBackground=245,245,245
 /instance/org.eclipse.debug.ui/overriddenByCSS=,org.eclipse.debug.ui.consoleBackground,
 /instance/org.eclipse.debug.ui/preferredDetailPanes=NumberFormatPane\:NumberFormatPane|DefaultDetailPane\:DefaultDetailPane|
@@ -346,22 +342,21 @@
 /instance/org.eclipse.e4.ui.css.swt.theme/darkestApplied=true
 /instance/org.eclipse.e4.ui.css.swt.theme/enableddarkestdark=true
 /instance/org.eclipse.e4.ui.css.swt.theme/themeid=com.genuitec.eclipse.themes.dark
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories=/home/jucom/Development/temp/OpenGL-Test/.git\:/home/jucom/Development/eclipse-oxygen-workspace/OpenGL-Test/.git\:/home/jucom/Development/eclipse-oxygen-workspace/gltest/.git\:
-/instance/org.eclipse.egit.core/GitRepositoriesView.GitDirectories.relative=/home/jucom/Development/temp/OpenGL-Test/.git\:OpenGL-Test/.git\:gltest/.git\:
 /instance/org.eclipse.epp.logging.aeri.ide/resetSendMode=KEEP
 /instance/org.eclipse.epp.logging.aeri.ide/resetSendModeOn=0
 /instance/org.eclipse.epp.logging.aeri.ide/sendMode=NOTIFY
+/instance/org.eclipse.epp.mpc.ui//News/http___marketplace_eclipse_org=[1519275600]https\://www.eclipse.org/community/eclipse_newsletter/2018/february/
 /instance/org.eclipse.epp.mpc.ui/CatalogDescriptor=http\://marketplace.eclipse.org
 /instance/org.eclipse.help.base/scope=
 /instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 /instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 /instance/org.eclipse.launchbar.core/LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-/instance/org.eclipse.launchbar.core/configDescList=org.eclipse.launchbar.core.descriptorType.default\:hello,org.eclipse.launchbar.core.descriptorType.default\:gltest,org.eclipse.launchbar.core.descriptorType.default\:test,org.eclipse.launchbar.core.descriptorType.default\:OpenGL-Test Debug
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:gltest/activeLaunchMode=run
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:hello/activeLaunchMode=run
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:hello/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:test/activeLaunchMode=run
 /instance/org.eclipse.launchbar.core/org.eclipse.launchbar.core.descriptorType.default\:test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+/instance/org.eclipse.launchbar.ui.controls/enableLaunchBar=false
 /instance/org.eclipse.mylyn.context.core/mylyn.attention.migrated=true
 /instance/org.eclipse.mylyn.monitor.ui/org.eclipse.mylyn.monitor.activity.tracking.enabled.checked=true
 /instance/org.eclipse.mylyn.tasks.ui/migrated.task.repositories.secure.store=true
@@ -376,6 +371,7 @@
 /instance/org.eclipse.tm.terminal.control/TerminalPrefInvertColors=false
 /instance/org.eclipse.tm.terminal.control/overriddenByCSS=,TerminalPrefInvertColors,
 /instance/org.eclipse.ui.browser/browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n</web-browsers>
+/instance/org.eclipse.ui.browser/internalWebBrowserHistory=http\://marketplace.eclipse.org/?mpc\=true&mpc_state\=|*|http\://marketplace.eclipse.org?mpc\=true&mpc_state\=|*|
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background=250,250,250
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Background.SystemDefault=false
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.Foreground=13,13,13
@@ -384,13 +380,17 @@
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground=255,255,255
 /instance/org.eclipse.ui.editors/AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+/instance/org.eclipse.ui.editors/additionIndicationColor=77,187,77
 /instance/org.eclipse.ui.editors/asOccurencesIndicationColor=212,212,212
+/instance/org.eclipse.ui.editors/changeIndicationColor=255,128,0
 /instance/org.eclipse.ui.editors/currentIPColor=227,227,227
 /instance/org.eclipse.ui.editors/currentLineColor=232,232,232
 /instance/org.eclipse.ui.editors/deletionIndicationColor=26,26,26
 /instance/org.eclipse.ui.editors/filteredSearchResultIndicationColor=237,237,252
 /instance/org.eclipse.ui.editors/findBlockColor=90,120,255
 /instance/org.eclipse.ui.editors/findIndicationColor=255,253,208
+/instance/org.eclipse.ui.editors/isAdditionGoToNextNavigationTarget=true
+/instance/org.eclipse.ui.editors/isChangeGoToNextNavigationTarget=true
 /instance/org.eclipse.ui.editors/matchingTagIndicationColor=214,214,214
 /instance/org.eclipse.ui.editors/occurrenceIndicationColor=212,212,212
 /instance/org.eclipse.ui.editors/org.eclipse.cdt.ui.writeOccurrenceIndicationColor=212,212,212
@@ -406,7 +406,7 @@
 /instance/org.eclipse.ui.ide/PROBLEMS_FILTERS_MIGRATE=true
 /instance/org.eclipse.ui.ide/SAVE_ALL_BEFORE_BUILD=true
 /instance/org.eclipse.ui.ide/TASKS_FILTERS_MIGRATE=true
-/instance/org.eclipse.ui.ide/platformState=1519298234864
+/instance/org.eclipse.ui.ide/platformState=1533814061907
 /instance/org.eclipse.ui.ide/quickStart=false
 /instance/org.eclipse.ui.ide/tipsAndTricks=true
 /instance/org.eclipse.ui.workbench//org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
@@ -436,35 +436,34 @@
 /instance/org.eclipse.xtend.core.Xtend/org.eclipse.xtend.core.Xtend.syntaxColorer.tokenStyles.xtend.richText.bgColor=230,230,230
 /instance/org.eclipse.xtend.core.Xtend/overriddenByCSS=,org.eclipse.xtend.core.Xtend.syntaxColorer.tokenStyles.xtend.richText.bgColor,
 @com.genuitec.eclipse.monitor=13.0.0.201711231100
-@com.genuitec.eclipse.theming.ui=1.10.0.201801111428
-@org.eclipse.cdt.core=6.4.0.201802122019
-@org.eclipse.cdt.debug.core=8.3.0.201802122019
-@org.eclipse.cdt.dsf.ui=2.5.0.201802122019
-@org.eclipse.cdt.managedbuilder.core=8.6.0.201802122019
-@org.eclipse.cdt.mylyn.ui=3.23.0.v20170411-2108
-@org.eclipse.cdt.ui=6.3.0.201802122019
-@org.eclipse.core.net=1.3.100.v20170516-0820
-@org.eclipse.core.resources=3.12.0.v20170417-1558
-@org.eclipse.debug.core=3.11.0.v20170605-1534
-@org.eclipse.debug.ui=3.12.50.v20170920-1329
-@org.eclipse.e4.ui.css.swt.theme=0.11.0.v20170312-2302
-@org.eclipse.egit.core=4.9.2.201712150930-r
-@org.eclipse.epp.logging.aeri.ide=2.0.6.v20170906-1226
-@org.eclipse.epp.mpc.ui=1.6.3.v20171122-2010
-@org.eclipse.help.base=4.2.102.v20171130-0510
-@org.eclipse.launchbar.core=2.2.0.201711162100
-@org.eclipse.mylyn.context.core=3.23.0.v20170411-2108
-@org.eclipse.mylyn.monitor.ui=3.23.0.v20170411-1844
-@org.eclipse.mylyn.tasks.ui=3.23.1.v20170623-0008
-@org.eclipse.oomph.workingsets=1.8.0.v20170318-0419
-@org.eclipse.rse.core=3.3.100.201603151753
-@org.eclipse.rse.ui=3.3.400.201704241037
-@org.eclipse.search=3.11.100.v20170515-1603
-@org.eclipse.team.ui=3.8.1.v20170515-1133
-@org.eclipse.tm.terminal.control=4.3.0.201706130821
-@org.eclipse.ui=3.109.0.v20170411-1742
-@org.eclipse.ui.browser=3.6.100.v20170418-1342
-@org.eclipse.ui.editors=3.11.0.v20170202-1823
-@org.eclipse.ui.ide=3.13.1.v20170822-1526
-@org.eclipse.ui.workbench=3.110.1.v20170704-1208
+@com.genuitec.eclipse.theming.ui=1.11.0.201807241911
+@org.eclipse.cdt.core=6.5.0.201807181141
+@org.eclipse.cdt.debug.core=8.3.0.201807181141
+@org.eclipse.cdt.dsf.ui=2.5.0.201807181141
+@org.eclipse.cdt.managedbuilder.core=8.6.0.201807181141
+@org.eclipse.cdt.mylyn.ui=3.24.0.v20170629-2230
+@org.eclipse.cdt.ui=6.3.1.201807181141
+@org.eclipse.core.resources=3.13.0.v20180512-1138
+@org.eclipse.debug.core=3.12.0.v20180509-0959
+@org.eclipse.debug.ui=3.13.0.v20180514-0621
+@org.eclipse.e4.ui.css.swt.theme=0.12.0.v20180403-0944
+@org.eclipse.egit.core=5.0.0.201806131550-r
+@org.eclipse.egit.ui=5.0.0.201806131550-r
+@org.eclipse.epp.logging.aeri.ide=2.0.7.v20170906-1327
+@org.eclipse.epp.mpc.ui=1.7.0.v20180607-0001
+@org.eclipse.help.base=4.2.200.v20180611-0500
+@org.eclipse.launchbar.core=2.2.1.201807231911
+@org.eclipse.launchbar.ui.controls=1.0.2.201807231911
+@org.eclipse.mylyn.context.core=3.24.0.v20170629-2230
+@org.eclipse.mylyn.monitor.ui=3.24.0.v20170629-1728
+@org.eclipse.mylyn.tasks.ui=3.24.0.v20180227-0955
+@org.eclipse.oomph.workingsets=1.9.0.v20180529-0916
+@org.eclipse.search=3.11.200.v20180503-1856
+@org.eclipse.team.ui=3.8.100.v20180418-1233
+@org.eclipse.tm.terminal.control=4.4.0.201801212237
+@org.eclipse.ui=3.109.100.v20180426-0903
+@org.eclipse.ui.browser=3.6.200.v20180403-0945
+@org.eclipse.ui.editors=3.11.100.v20180512-1137
+@org.eclipse.ui.ide=3.14.0.v20180517-1842
+@org.eclipse.ui.workbench=3.111.0.v20180524-1156
 file_export_version=3.0
